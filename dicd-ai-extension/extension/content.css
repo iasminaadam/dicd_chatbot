@@ -1,0 +1,187 @@
+#dicd-ai-root {
+  all: initial;
+  position: fixed;
+  z-index: 2147483647;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #172033;
+}
+
+#dicd-ai-root * {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+#dicd-ai-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 58px;
+  height: 58px;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #172033;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.22);
+  font-size: 26px;
+  transition: transform .15s ease, opacity .15s ease;
+}
+
+#dicd-ai-launcher:hover {
+  transform: translateY(-2px);
+}
+
+#dicd-ai-launcher.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#dicd-ai-panel {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: min(390px, calc(100vw - 32px));
+  height: min(620px, calc(100vh - 48px));
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 18px 60px rgba(0,0,0,.24);
+  border: 1px solid rgba(23,32,51,.12);
+}
+
+#dicd-ai-panel.open {
+  display: flex;
+}
+
+.dicd-ai-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 18px;
+  background: #172033;
+  color: white;
+}
+
+.dicd-ai-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.dicd-ai-subtitle {
+  margin-top: 3px;
+  font-size: 11px;
+  opacity: .75;
+}
+
+.dicd-ai-icon-button {
+  border: 0;
+  background: transparent;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.dicd-ai-page {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 14px;
+  background: #f5f7fa;
+  border-bottom: 1px solid #e6e9ef;
+  font-size: 11px;
+  color: #5b6475;
+}
+
+.dicd-ai-page-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #3b82f6;
+}
+
+.dicd-ai-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px;
+  background: #fff;
+}
+
+.dicd-ai-message {
+  width: fit-content;
+  max-width: 88%;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 13px;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.dicd-ai-message.assistant {
+  background: #f0f3f7;
+  color: #172033;
+  border-bottom-left-radius: 4px;
+}
+
+.dicd-ai-message.user {
+  margin-left: auto;
+  background: #172033;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.dicd-ai-form {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  border-top: 1px solid #e6e9ef;
+  background: white;
+}
+
+#dicd-ai-input {
+  min-width: 0;
+  flex: 1;
+  resize: none;
+  border: 1px solid #d7dce5;
+  border-radius: 11px;
+  outline: none;
+  padding: 9px 10px;
+  font-size: 13px;
+}
+
+#dicd-ai-input:focus {
+  border-color: #8093b5;
+}
+
+#dicd-ai-send {
+  align-self: stretch;
+  border: 0;
+  border-radius: 10px;
+  padding: 0 13px;
+  cursor: pointer;
+  background: #172033;
+  color: white;
+  font-weight: 600;
+}
+
+#dicd-ai-send:disabled {
+  opacity: .55;
+  cursor: default;
+}
+
+@media (max-width: 600px) {
+  #dicd-ai-launcher {
+    right: 14px;
+    bottom: 14px;
+  }
+
+  #dicd-ai-panel {
+    right: 8px;
+    bottom: 8px;
+    width: calc(100vw - 16px);
+    height: calc(100vh - 16px);
+  }
+}

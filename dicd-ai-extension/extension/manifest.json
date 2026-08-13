@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "DICD AI Assistant",
+  "version": "0.1.0",
+  "description": "A page-aware AI assistant for the TUIASI DICD website.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://dicd.tuiasi.ro/*",
+    "http://localhost:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://dicd.tuiasi.ro/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "DICD AI Assistant"
+  }
+}
