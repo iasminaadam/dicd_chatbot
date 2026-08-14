@@ -5,7 +5,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/sintact-v4/"
 
 # SintAct V4
 
-Procedura de instalare a clientului SintAct versiunea 4
+## Procedura de instalare a clientului SintAct versiunea 4
 
 **Pasul 1:** Descărcăm și salvăm clientul **[Sintact](http://sintact.tuiasi.ro:25252/sintact4client.exe)**.
 
@@ -50,7 +50,7 @@ Procedura de instalare a clientului SintAct versiunea 4
 
   Fig. 8 Finalizare instalare
 
-Configurare client
+## Configurare client
 
 **Pasul 1:** Pornim aplicaţia client SintAct, folosind legatura din meniul de start sau legatura de pe desktop.
 
@@ -70,7 +70,7 @@ Configurare client
 
   Fig. 11 Autentificare
 
-INFO
+### INFO
 
 Dacă browser-ul pe care îl folosiți nu reușește să descarce aplicația vă sfătuim să descărcați aplicația Sintact v4.0 folosind browser-ul Firefox.
 

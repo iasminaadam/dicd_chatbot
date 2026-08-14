@@ -5,7 +5,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/cont-institutional/"
 
 # Cont instituțional
 
-Identitățile TUIASI
+## Identitățile TUIASI
 
 Studenții din cadrul Universității Tehnice „Gheorghe Asachi” din Iași beneficiază de acces la serviciile IT ale Universității, prin intermediul unui **cont instituțional de utilizator TUIASI**. Acest cont instituțional face parte din unul dintre domeniile:
 
@@ -14,7 +14,7 @@ Studenții din cadrul Universității Tehnice „Gheorghe Asachi” din Iași be
 
 Contul instituțional de utilizator TUIASI este activ cât timp utilizatorul este student al Universității Tehnice „Gheorghe Asachi” din Iași. Contul devine inactiv după încetarea relației contractuale dintre student și Universitate.
 
-Serviciile IT @ TUIASI
+## Serviciile IT @ TUIASI
 
 Accesul la următoarele servicii IT este permis, în baza ****contului instituțional / numelui de utilizator, *prenume.nume*****, pentru toate categoriile de utilizatori:
 
@@ -31,7 +31,7 @@ Pentru serviciile externe, accesul este permis în baza **contului instituționa
 
 Toți studenții din ciclurile de licență, masterat și doctorat beneficiază, de asemenea, de o adresă de e-mail de forma *prenume.nume@student.tuiasi.ro* / *prenume.nume@guest.tuiasi.ro*, ce poate fi accesată prin platforma Gmail.
 
-Determinarea contului instituțional de utilizator TUIASI
+## Determinarea contului instituțional de utilizator TUIASI
 
 Pentru toate categoriile de utilizatori, numele contului instituțional este de forma **prenume.nume**, include toate prenumele și toate numele separate prin linie, și nu conține diacritice. De exemplu:
 
@@ -52,7 +52,7 @@ Există posibilitatea ca doi sau mai mulți utilizatori să aibă exact același
 - accesând secțiunea **Autentificare în contul TUIASI** din pagina de [**management a identității TUIASI**](https://sso.tuiasi.ro/), folosind contul instituțional TUIASI și parola inițială
 - accesând oricare din platformele online de mai sus, folosind contul instituțional extins (***prenume.nume@student.tuiasi.ro***, ***prenume.nume@guest.tuiasi.ro***), de unde este făcută redirectarea în mod automat către pagina de management a identității TUIASI, unde rămâne de introdus doar contul instituțional și parola inițială.
 
-Setare cod unic
+## Setare cod unic
 
 **ATENȚIE:** Înainte de a configura codul unic trebuie să vă asigurați că data și fusul orar al dispozitivului mobil este setat **Automat**. Acest lucru se poate verifica în **”Setări”>”Management General”>”Dată și oră”**.
 
@@ -102,7 +102,7 @@ Setare cod unic
 
   Fig. 8
 
-Resetare cod unic
+## Resetare cod unic
 
 **Resetarea codului unic:**În cazul în care, din varii motive, nu mai aveți acces la codul unic și doriți să îl resetați, este necesar să vă resetați parola conform secțiunii **”Resetare parolă”**.
 
@@ -110,7 +110,7 @@ După ce urmați pașii de resetare a parolei, și vi se afișează codul QR de 
 
 ***După ce ați finalizat pașii anteriori și ați reușit să vă** **autentificați**, dacă ați observați că aveți mai multe coduri configurate, puteți șterge din acestea din setările contului urmând pașii de la secțiunea **”Ștergerea unei instanțe OTP”**.*
 
-Resetare parolă
+## Resetare parolă
 
 **Pasul 1:** Deschidem un browser și accesăm pagina de administrare a contului instituțional (SSO). Click pe „**Autentificare în contul TUIASI**” pentru a deschide pagina de autentificare (Fig. 1).
 
@@ -131,11 +131,11 @@ Resetare parolă
   Fig. 3 Nume de utilizator
 - ![](https://dicd.tuiasi.ro/wp-content/uploads/2024/09/resetare-parola-1.png)
 
-Autentificare fără parolă
+## Autentificare fără parolă
 
 În cazul în care dispuneți de o cheie de securitate **YubiKey**, aceasta poate fi configurată la cont urmând pașii de [**aici**](https://dicd.tuiasi.ro/ro/angajati/inregistrarea-unei-chei-yubikey-aditionala/) pentru a facilita autentificarea la contul instituțional fără parolă (passwordless) și fără cod OTP.
 
-Ștergerea unei instanțe OTP
+## Ștergerea unei instanțe OTP
 
 **ATENȚIE:** Acești pași pot fi urmați **doar dacă vă puteți conecta la contul instituțional și codul unic funcționează**. Dacă nu funcționează codul unic trebuie să urmați pașii de la secțiunea **Resetare cod unic**.
 

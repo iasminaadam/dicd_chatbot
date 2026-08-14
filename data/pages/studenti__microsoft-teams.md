@@ -5,9 +5,9 @@ url: "https://dicd.tuiasi.ro/ro/studenti/microsoft-teams/"
 
 # Microsoft Teams
 
-Descărcare și instalare
+## Descărcare și instalare
 
-Windows
+### Windows
 
 **Pasul 1:** Descărcăm aplicația Microsoft Teams de pe pagina oficială **[Microsoft](https://www.microsoft.com/en-us/microsoft-teams/download-app)** (Fig. 1).
 
@@ -25,7 +25,7 @@ Windows
 
   Fig. 3 Autentificare
 
-macOS
+### macOS
 
 **Pasul 1:** Descărcăm aplicația Microsoft Teams de pe pagina oficială **[Microsoft](https://www.microsoft.com/en-us/microsoft-teams/download-app)** (Fig. 4).
 
@@ -46,7 +46,7 @@ macOS
 
   Fig. 7 Instalare finalizată cu succes
 
-Android
+### Android
 
 **Pasul 1:** Deschidem aplicația „**Play Store**” și căutăm „**Microsoft Teams**” în bara de căutare. Instalăm aplicația apăsând butonul „**Install**” (Fig. 8).
 
@@ -59,7 +59,7 @@ Android
 
   Fig. 9 Autentificare
 
-iOS
+### iOS
 
 ****Pasul 1:**** Deschidem aplicația „**App Store**” și căutăm „**Microsoft Teams**” în bara de căutare. Instalăm aplicația apăsând butonul „**Install**” (Fig. 10).
 
@@ -72,7 +72,7 @@ iOS
 
   Fig. 11
 
-Linux
+### Linux
 
 **Pasul 1:** Deschidem aplicația „**Software**” și deschidem bara de căutare (Fig. 12).
 

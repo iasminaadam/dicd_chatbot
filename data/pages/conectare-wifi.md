@@ -9,9 +9,9 @@ Pentru a simplifica procesul de configurare pentru conectare, putem descărca ap
 
 În cazul în care utilizați macOS sau Linux, puteți descărca aplicația de pe pagina **[Eduroam](https://cat.eduroam.org/)**.
 
-Descărcare și conectare
+## Descărcare și conectare
 
-Windows
+### Windows
 
 **Pasul 1:** Descărcăm aplicația **GetEduroam** de pe pagina oficial **[GetEduroam](https://www.geteduroam.app/)** (Fig. 1) sau de pe pagina de **[GitHub](https://github.com/geteduroam/windows-app/releases)**.
 
@@ -37,7 +37,7 @@ Windows
 
   Fig. 6 Autentificare
 
-Android
+### Android
 
 **Pasul 1:** Deschidem aplicația „**Play Store**” și căutăm aplicația „**geteduroam**„. Apăsăm pe butonul „**Install**” pentru a începe instalarea (Fig. 7).
 
@@ -58,7 +58,7 @@ Android
 
   Fig. 10 Conectare realizata cu succes
 
-iOS
+### iOS
 
 ****Pasul 1:**** Deschidem aplicația „**App Store**” și căutăm aplicația „**geteduroam**„. Apăsăm pe butonul „**Get**” pentru a începe instalarea. (Fig. 1)
 
@@ -96,7 +96,7 @@ iOS
 
   Fig. 9
 
-macOS
+### macOS
 
 ****Pasul 1:**** Se dă click pe ”**Click here to download your eduroam@ installer**”. (Fig. 11)
 
@@ -160,7 +160,7 @@ macOS
 
   Fig. 23
 
-Linux
+### Linux
 
 ****Pasul 1:**** Se dă click pe ”**Click here to download your eduroam@ installer**”.
 

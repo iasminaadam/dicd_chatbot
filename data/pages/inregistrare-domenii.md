@@ -9,7 +9,7 @@ url: "https://dicd.tuiasi.ro/ro/inregistrare-domenii/"
 
 Mai jos veți găsi instrucțiunile pe care trebuie să le urmați pentru a putea înregistra un domeniu. Acești pași sunt importanți dacă vreți să găzduiți un site în cadrul Universității.
 
-Înregistrare domeniu
+## Înregistrare domeniu
 
 **Pasul 1:** Trebuie să completați și să semnați cererea de administrator Web ([**.doc**](https://dicd.tuiasi.ro/wp-content/uploads/2021/07/fisa_administrator_web.doc) / [**.pdf**](https://dicd.tuiasi.ro/wp-content/uploads/2021/07/fisa_administrator_web.pdf)).
 

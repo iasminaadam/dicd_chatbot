@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/emerald-insight/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma **Emerald Insight** pe baza contului instituţional sau automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare via adresă IP
+## Accesare via adresă IP
 
 Accesăm [**Emerald Insight**](https://www.emerald.com/insight/) şi, dacă autentificarea a fost realizată cu succes, putem observa mesajul din Fig. 1.
 
@@ -17,7 +17,7 @@ Accesăm [**Emerald Insight**](https://www.emerald.com/insight/) şi, dacă aute
 
   Fig. 1
 
-Accesare via cont instituţional
+## Accesare via cont instituţional
 
 **Pasul 1:** Vom accesa pagina [**Emerald Insight**](https://www.emerald.com/insight/) şi vom apăsa pe butonul „**Login**” (Fig. 2).
 

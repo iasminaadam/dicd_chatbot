@@ -12,7 +12,7 @@ Persoanele externe Universității pot beneficia de un cont instituțional cu do
 
 Pentru a intra în posesia unui cont instituțional, persoanele care au o relație contractuală cu Universitatea (angajați) vor contacta Direcţia Resurse Umane pentru a notifica necesitatea unui cont. Cei din categoria Mobilitate Erasmus vor lua legătura cu Prorectoratul Relaţii Internaţionale pentru crearea unui cont.
 
-Identitățile TUIASI
+## Identitățile TUIASI
 
 Studenții și personalul din cadrul Universității Tehnice „Gheorghe Asachi” din Iași beneficiază de acces la serviciile IT ale Universității, prin intermediul unui **cont instituțional de utilizator TUIASI**. Acest cont instituțional face parte din unul dintre domeniile:
 
@@ -23,7 +23,7 @@ Studenții și personalul din cadrul Universității Tehnice „Gheorghe Asachi�
 
 Contul instituțional de utilizator TUIASI este activ cât timp utilizatorul este student sau angajat al Universității Tehnice „Gheorghe Asachi” din Iași. Contul devine inactiv după 6 luni de la data încetării relației contractuale dintre student sau angajat și Universitate, iar în această perioadă de grație există posibilitatea de salvare a datelor.
 
-Serviciile IT @ TUIASI
+## Serviciile IT @ TUIASI
 
 Accesul la următoarele servicii IT este permis, în baza **contului instituțional**, pentru toate categoriile de utilizatori:
 
@@ -38,7 +38,7 @@ Pentru serviciile externe, accesul este permis în baza **contului instituționa
 - platformele online Google (Meet, Gmail, Drive, Calendar, Photos, Classroom) și Microsoft (Teams, Office 365)
 - platformele online destinate studenților și personalului didactic și de cercetare (Amazon AWS Educate, GitHub Education, JetBrains, etc.)
 
-Determinarea contului instituțional de utilizator TUIASI
+## Determinarea contului instituțional de utilizator TUIASI
 
 Pentru toate categoriile de utilizatori, numele contului instituțional este de forma **prenume.nume**, include toate prenumele și toate numele separate prin linie, și nu conține diacritice. De exemplu:
 
@@ -59,7 +59,7 @@ Există posibilitatea ca doi sau mai mulți utilizatori să aibă exact același
 - accesând secțiunea **Autentificare în contul TUIASI**, folosind contul instituțional TUIASI și parola inițială
 - accesând oricare din platformele online de mai sus, folosind contul instituțional extins (***nume@student.tuiasi.ro***, ***nume@academic.tuiasi.ro***, ***nume@staff.tuiasi.ro***, ***nume@guest.tuiasi.ro***), de unde este făcută redirectarea în mod automat către pagina de administrare, unde rămâne de introdus doar contul instituțional și parola inițială.
 
-Resetare parolă
+## Resetare parolă
 
 **Pasul 1:** Deschidem un browser și accesăm pagina de administrare a contului instituțional (SSO). Click pe „**Autentificare în contul TUIASI**” pentru a deschide pagina de autentificare (Fig. 1).
 

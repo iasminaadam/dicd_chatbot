@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/windows/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție sistemul de operare Windows licențiat în mod gratuit pentru studenți și angajați. Pentru a obține o astfel de licență trebuie să urmați următoarele instrucțiuni:
 
-Obținere licență
+## Obținere licență
 
 **Pasul 1:** Accesăm pagina [**Azure For Education**](https://azure.microsoft.com/en-gb/free/students) și apăsăm pe butonul „**Start free**” (Fig. 1).
 

@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/administrare-site/"
 
 Pentru a putea administra site-ul dumneavoastră, trebuie să vă conectați la una dintre mașinile pe care se află site-ul. Pentru a face acest lucru trebuie să urmați pașii de mai jos.
 
-Descărcare și instalare WinSCP
+## Descărcare și instalare WinSCP
 
 **Pasul 1:** Trebuie să descărcăm programul WinSCP de la adresa: <https://winscp.net>
 
@@ -28,7 +28,7 @@ Descărcare și instalare WinSCP
 
   Fig. 4 Instalare
 
-Administrare fișiere
+## Administrare fișiere
 
 Accesul poate fi realizat dacă sunteți conectat la rețeaua Universității sau din afara acesteia prin intermediul [**VPN-ului**](https://dicd.tuiasi.ro/angajati/lucru-de-la-distanta/).
 
@@ -55,7 +55,7 @@ După ce ne-am asigurat că datele sunt corecte, apsăsăm pe butonul „**Login
 
 **Obs**: Accesul prin intermediul VPN-ului trebuie cerut explicit prin deschiderea unui [**ticket**](https://support.tuiasi.ro) și completarea formularului **[Administrator WEB](https://docs.google.com/forms/d/e/1FAIpQLSeh2z18WxeW5_OpCrlAFkV1NASxg8z6O4T1NMXTFzcKIEdrcA/viewform)**.
 
-Opțional: Salvare date conexiune
+## Opțional: Salvare date conexiune
 
 Se poate opta pentru salvarea site-ului pentru a facilita viitoarele accesări nefiind nevoie să introduceți mereu Hostname și Username. Pentru asta se procedează astfel:
 

@@ -10,9 +10,9 @@ Dacă întâmpinați probleme la realizarea conexiunii sau alte probleme de natu
 Pentru conectare, fiecare student va folosi **contul personal instituțional** (cel utilizat pentru accesul la Gmail, Meet, Teams etc.) și parola aferentă acestuia.
 Pentru prima utilizare, trebuie să creăm o conexiune de tip 802.1X. La viitoarele conectări nu va mai fi nevoie să repetați pașii de creare a conexiunii, deoarece veți putea folosi conexiunea creată inițial.
 
-Creare conexiune de tip 802.1X
+## Creare conexiune de tip 802.1X
 
-**(Pentru WINDOWS 10)** Verificați dacă pe computer rulează un serviciu numit „Wired AutoConfig”
+### (Pentru WINDOWS 10) Verificați dacă pe computer rulează un serviciu numit „Wired AutoConfig”
 
 Pasul 1: Faceți click dreapta pe **Start**, apoi faceți click pe elementul **Computer** **Management**. (Fig. 1)
 
@@ -42,7 +42,7 @@ Pasul 5: Închideți caseta de dialog apăsând OK. (Fig. 5)
 
   Fig. 5 Wired-AutoConfig-OK-Settings
 
-Windows
+### Windows
 
 Pentru a realiza **Pasul 1**, presupunem ca aveți conexiunea la internet prin alte mijloace (WIFI, LTE, HotSpot etc.). Alternativ, puteți transfera programul de instalare pe dispozitiv folosind un stick USB.
 
@@ -82,7 +82,7 @@ Pentru a realiza **Pasul 1**, presupunem ca aveți conexiunea la internet prin a
 
   Fig. 9 Installer
 
-Linux
+### Linux
 
 Pentru a realiza **Pasul 1**, presupunem că aveți conexiunea la internet prin alte mijloace (WIFI, LTE, HotSpot etc.). Alternativ, puteți transfera programul de instalare pe dispozitiv folosind un stick USB.
 

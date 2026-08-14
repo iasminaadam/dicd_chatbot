@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/platforma-educationala/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție o platformă educațională (moodle) . Platforma educațională TUIASI conține materialele didactice aferente disciplinelor studiate în cadrul Universității Tehnice „Gheorghe Asachi” din Iași. Aceasta este disponibilă la adresa [**edu.tuiasi.ro**](https://www.edu.tuiasi.ro), iar accesul se face prin intermediul contului instituțional de utilizator TUIASI.
 
-Conectare
+## Conectare
 
 **Pasul 1**: Accesăm adresa [**edu.tuiasi.ro**](https://www.edu.tuiasi.ro), unde va trebui să apăsăm pe butonul „**Autentificare prin contul TUIASI**” (Fig. 1).
 

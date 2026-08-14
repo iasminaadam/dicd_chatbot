@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/degruyter-ebooks/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma **DeGruyter Ebooks** pe baza contului instituţional sau automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare via adresă IP
+## Accesare via adresă IP
 
 Accesăm [**DeGruyter Ebooks**](https://www.degruyter.com/) şi, dacă autentificarea a fost realizată cu succes, putem observa mesajul din Fig. 1.
 
@@ -17,7 +17,7 @@ Accesăm [**DeGruyter Ebooks**](https://www.degruyter.com/) şi, dacă autentifi
 
   Fig. 1
 
-Accesare via cont instituţional
+## Accesare via cont instituţional
 
 **Pasul 1:** Vom accesa pagina [**DeGruyter Ebooks**](https://www.degruyter.com/) şi vom apăsa pe butonul „**Log in**” (Fig. 2).
 

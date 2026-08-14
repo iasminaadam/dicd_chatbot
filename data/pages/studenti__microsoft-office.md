@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/microsoft-office/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție pachetul Microsoft Office licențiat în mod gratuit pentru studenți. Pentru a obține o astfel de licență trebuie să urmați următoarele instrucțiuni:
 
-Descărcare și instalare
+## Descărcare și instalare
 
 **Pasul 1:** Accesăm **[portalul office](http://portal.office.com)** unde va trebui să ne conectăm cu contul instituțional.
 

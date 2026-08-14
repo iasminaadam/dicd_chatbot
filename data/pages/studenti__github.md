@@ -15,7 +15,7 @@ Studenții de la Universitatea Tehnică „Gheorghe Asachi” din Iași pot bene
 
 Lista completă poate fi găsită pe **[site-ul oficial](https://education.github.com/pack)**. Pachetul conține beneficii în valoare de peste **100 de mii de dolari**, acesta crescând constant datorită partenerilor.
 
-Accesare pachet
+## Accesare pachet
 
 **Pasul 1:** Apasăm pe butonul „**Get your pack**” de pe [**pagina oficială**](https://education.github.com/pack) (Fig. 1).
 

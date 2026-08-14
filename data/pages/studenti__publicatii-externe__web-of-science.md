@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/web-of-science/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma oferită de Clarivate **Web of Science** pe baza contului instituţional sau automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare prin adresă IP
+## Accesare prin adresă IP
 
 Accesăm [**Web of Science**](http://webofscience.com/) şi, dacă autentificarea a fost realizată cu succes, vom fi întâmpinaţi de pagina principală a website-ului (Fig. 1).
 
@@ -17,7 +17,7 @@ Accesăm [**Web of Science**](http://webofscience.com/) şi, dacă autentificare
 
   Fig. 1
 
-Accesare prin cont instituţional
+## Accesare prin cont instituţional
 
 **Pasul 1:** Vom accesa pagina [**Web of Science**](https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F&roaming=true) şi vom alege opţiunea „**Incommon Federation**” (Fig. 2).
 

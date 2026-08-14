@@ -5,7 +5,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/cont-institutional-angajati/"
 
 # Cont instituțional
 
-Identitățile TUIASI
+## Identitățile TUIASI
 
 Personalul din cadrul Universității Tehnice „Gheorghe Asachi” din Iași beneficiază de acces la serviciile IT ale Universității, prin intermediul unui **cont instituțional de utilizator TUIASI**. Acest cont instituțional face parte din unul dintre **domeniile**:
 
@@ -15,7 +15,7 @@ Personalul din cadrul Universității Tehnice „Gheorghe Asachi” din Iași be
 
 Contul instituțional de utilizator TUIASI este activ cât timp utilizatorul este angajat al Universității Tehnice „Gheorghe Asachi” din Iași. Contul devine **inactiv** după încetarea relației contractuale dintre angajat și Universitate.
 
-Serviciile IT @ TUIASI
+### Serviciile IT @ TUIASI
 
 Accesul la următoarele servicii IT este permis, în baza **contului instituțional / numelui de utilizator, *prenume.nume***, pentru toate categoriile de utilizatori:
 
@@ -32,7 +32,7 @@ Pentru serviciile externe, accesul este permis în baza **contului instituționa
 
 Tot personalul beneficiază, de asemenea, de o adresă de e-mail de forma *prenume.nume@academic.tuiasi.ro* / *prenume.nume@staff.tuiasi.ro* / *prenume.nume@guest.tuiasi.ro*, ce poate fi accesată prin platforma Gmail.
 
-Determinarea contului instituțional de utilizator TUIASI
+### Determinarea contului instituțional de utilizator TUIASI
 
 Pentru toate categoriile de utilizatori, numele contului instituțional este de forma **prenume.nume**, include toate prenumele și toate numele separate prin linie, și nu conține diacritice. De exemplu:
 
@@ -53,7 +53,7 @@ Există posibilitatea ca doi sau mai mulți utilizatori să aibă exact același
 - accesând secțiunea **Autentificare în contul TUIASI** din pagina de [management a identității TUIASI](https://sso.tuiasi.ro/), folosind contul instituțional TUIASI și parola inițială
 - accesând oricare din platformele online menționate anterior, folosind contul instituțional extins (******prenume.nume***@academic.tuiasi.ro***, ******prenume.nume***@staff.tuiasi.ro***, ******prenume.nume***@guest.tuiasi.ro***), de unde este făcută redirectarea în mod automat către pagina de management a identității, unde rămâne de introdus doar contul instituțional și parola inițială.
 
-Cheia de autentificare YubiKey
+### Cheia de autentificare YubiKey
 
 Pentru informații generale, înregistrare și utilizare cheie, vă rugăm să accesați pagina de [**aici**](https://dicd.tuiasi.ro/ro/angajati/utilizare-cheie-de-autentificare-yubico/).
 
@@ -61,7 +61,7 @@ Pentru schimbarea PIN-ului sau resetarea cheii YubiKey vă rugăm să accesați 
 
 Pentru adăugarea unei chei de autentificare YubiKey **adițională** vă rugăm să accesați pagina de [**aici**](https://dicd.tuiasi.ro/angajati/inregistrarea-unei-chei-yubikey-aditionala/).
 
-Resetare parolă
+### Resetare parolă
 
 **Pasul 1:** Deschidem un browser și accesăm pagina de administrare a contului instituțional (SSO). Click pe „**Autentificare în contul TUIASI**” pentru a deschide pagina de autentificare (Fig. 1).
 

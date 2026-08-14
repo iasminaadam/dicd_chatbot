@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/wiley-online-library
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași are acces, prin consorţiul Anelis Plus, la platforma oferită de **Wiley Online Library**, automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare via adresă IP
+## Accesare via adresă IP
 
 Accesăm [**Wiley Online Library**](https://onlinelibrary.wiley.com/) şi, dacă autentificarea a fost realizată cu succes, putem observa mesajul din Fig. 1.
 
@@ -15,7 +15,7 @@ Accesăm [**Wiley Online Library**](https://onlinelibrary.wiley.com/) şi, dacă
 
   Fig. 1
 
-Accesare via cont instituţional
+### Accesare via cont instituţional
 
 **Pasul 1:** Vom accesa pagina [Wiley Online Library](https://onlinelibrary.wiley.com/) şi vom apăsa pe „**Login / Register**” (Fig. 2).
 

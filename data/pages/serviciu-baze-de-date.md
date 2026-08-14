@@ -9,14 +9,14 @@ url: "https://dicd.tuiasi.ro/ro/serviciu-baze-de-date/"
 
 Persoanele care au relație contractuala cu Universitatea pot cere accesul la o bază de date. Mai jos veți găsi instrucțiunile necesare pentru crearea și accesarea unei baze de date. Acești pași sunt importanți dacă vreți să găzduiți un site în cadrul Universității.
 
-Obținerea unei baze de date
+## Obținerea unei baze de date
 
 **Pasul 1:** Deschidem un tichet la adresa **[www.support.tuiasi.ro](http://www.support.tuiasi.ro)** în care trebuie să specificăm că dorim crearea unei baze de date. În tichet trebuie să menționăm:
 
 - motivul pentru care este necesară;
 - dacă mai avem alte baze de date în administrare.
 
-Accesarea via phpMyAdmin
+## Accesarea via phpMyAdmin
 
 Accesul la pagina phpMyAdmin poate fi realizat numai dacă sunteți conectat la rețeaua Universității sau prin intermediul [**VPN-ului**](https://dicd.tuiasi.ro/angajati/lucru-de-la-distanta/).
 

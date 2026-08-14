@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/elsevier-ebooks/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma **Elsevier Ebooks** pe baza contului instituţional.
 
-Accesare via cont instituţional
+## Accesare via cont instituţional
 
 **Pasul 1:** Vom accesa pagina de conectare [**Elsevier**](https://www.sciencedirect.com/science/externallogin) şi vom introduce adresa de email asociată contului instituţional (Fig. 1).
 

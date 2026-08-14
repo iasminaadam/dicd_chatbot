@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/altium-education/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziția studenților acces la resurse și licențe oferite de Altium Education pe baza contului instituțional.
 
-Tutorial accesare licențe
+## Tutorial accesare licențe
 
 **Pasul 1:** Se accesează pagina **[Altium Education](https://www.altium.com/education/student-licenses)** și se începe procesul de verificare prin introducerea adresei instituționale și numele universității (”Gheorghe Asachi Technical University of Iasi”) și apoi apăsarea butonului ”Start verification”.
 

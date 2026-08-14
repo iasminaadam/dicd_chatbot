@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/ebsco-host/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma **EBSCO Host** pe baza contului instituţional sau automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare via adresă IP
+## Accesare via adresă IP
 
 Accesăm [**EBSCO Host**](http://search.ebscohost.com/) şi, dacă autentificarea a fost realizată cu succes, putem observa mesajul din Fig. 1.
 
@@ -17,7 +17,7 @@ Accesăm [**EBSCO Host**](http://search.ebscohost.com/) şi, dacă autentificare
 
   Fig. 1
 
-Accesare via cont instituţional
+## Accesare via cont instituţional
 
 **Pasul 1:** Vom accesa pagina [**EBSCO Host**](http://search.ebscohost.com/) şi vom alege opţiunea **„Institutional Login”** (Fig. 2).
 

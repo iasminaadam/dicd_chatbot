@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/cabi-ebooks/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma **CABI Ebooks** pe baza contului instituţional sau automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare via adresă IP
+## Accesare via adresă IP
 
 Accesăm [**CABI Ebooks**](https://www.cabi.org/cabebooks) şi, dacă autentificarea a fost realizată cu succes, putem observa mesajul din Fig. 1.
 
@@ -17,7 +17,7 @@ Accesăm [**CABI Ebooks**](https://www.cabi.org/cabebooks) şi, dacă autentific
 
   Fig. 1
 
-Accesare via cont instituţional
+## Accesare via cont instituţional
 
 **Pasul 1:** Vom accesa pagina [**CABI Ebooks**](https://www.cabi.org/cabebooks) şi vom apăsa pe butonul „**Login**” (Fig. 2).
 

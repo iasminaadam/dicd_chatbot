@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/orcid/"
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma **ORCID** pe baza contului instituţional.
 
-Accesare prin cont instituţional
+## Accesare prin cont instituţional
 
 **Pasul 1:** Vom accesa pagina de înregistrare [**ORCID**](https://orcid.org/register) şi vom completa cu datele personale (Fig. 1).
 

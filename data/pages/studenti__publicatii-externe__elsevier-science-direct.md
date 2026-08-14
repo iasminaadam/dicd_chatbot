@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/elsevier-science-dir
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma oferită de Elsevier **Science Direct** pe baza contului instituţional sau automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare via adresă IP
+## Accesare via adresă IP
 
 Accesăm pagina [**Science Direct**](https://www.sciencedirect.com/) şi, dacă autentificarea a fost realizată cu succes, putem observa mesajul din Fig. 1.
 
@@ -17,7 +17,7 @@ Accesăm pagina [**Science Direct**](https://www.sciencedirect.com/) şi, dacă 
 
   Fig. 1
 
-Accesare via cont instituţional
+## Accesare via cont instituţional
 
 **Pasul 1:** Vom accesa pagina de conectare [**Elsevier**](https://www.sciencedirect.com/science/externallogin) şi vom introduce adresa de email asociată contului instituţional (Fig. 2).
 

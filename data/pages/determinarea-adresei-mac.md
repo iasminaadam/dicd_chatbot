@@ -9,7 +9,7 @@ url: "https://dicd.tuiasi.ro/ro/determinarea-adresei-mac/"
 
 Mai jos veți găsi instrucțiunile pe care trebuie să le urmați înainte de a completa **cererea de conectare a resurselor de calcul/comunicaţie**. Acești pași sunt importanți, deoarece conectarea la rețea se va face pe baza adresei MAC.
 
-Windows
+## Windows
 
 **Pasul 1:** Apăsăm pe butonul „**Start**” și tastăm „**cmd**” în bara de căutare. Deschidem fereastra ca administrator cu click dreapta pe intrarea „**Command Prompt**” și selectăm „**Run as administrator**” (Fig. 1).
 
@@ -27,7 +27,7 @@ Windows
 
   Fig. 3 Adresa MAC
 
-macOS
+## macOS
 
 **Pasul 1:** Găsiți și deschideți terminalul din **Aplicații** > **Utilități** > **Terminal**.
 
@@ -42,7 +42,7 @@ macOS
 
   Fig. 5 Adresa MAC
 
-Linux
+## Linux
 
 **Pasul 1:** Deschideți terminalul și tastați comanda „**ifconfig**” (Fig. 6).
 

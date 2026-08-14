@@ -9,7 +9,7 @@ url: "https://dicd.tuiasi.ro/ro/verificare-configuratie-pc/"
 
 Mai jos veți găsi instrucțiunile pe care trebuie să le urmați înainte de a completa **cererea de conectare a resurselor de calcul/comunicaţie**. Acești pași sunt importanți pentru realizarea cu succes a conexiunii la internet.
 
-Windows
+## Windows
 
 **Pasul 1:** Folosind butonul din dreapta al mouse-ului, se accesează **„Open Network & Internet settings”**; pictograma este reprezentată, sugestiv, de un calculator conectat la rețea (Fig. 1).
 
@@ -47,7 +47,7 @@ Windows
 
   Fig. 7 Enable
 
-macOS
+## macOS
 
 **Pasul 1:** Deschidem **Apple menu** > **System Preferences** (Fig. 8).
 
@@ -65,7 +65,7 @@ macOS
 
   Fig. 10 Using DHCP
 
-Linux
+## Linux
 
 **Pasul 1:** Deschidem setările sistemului de operare și în meniul din stânga accesăm intrarea „**Network**„. (Fig. 11)
 

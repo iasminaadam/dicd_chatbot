@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/acces-la-casuta-postala/"
 
 Căsuța poștală este asociată unui cont de utilizator creat special pentru fiecare persoană. Instrucțiunile pentru determinarea adresei de e-mail le puteți găsi la pagina “[**Cont Instituțional**](https://dicd.tuiasi.ro/studenti/cont-institutional/)“. E-mailurile se pot accesa utilizând **[Gmail](http://mail.google.com)**.
 
-Conectare de pe PC
+## Conectare de pe PC
 
 **Pasul 1:** Deschidem un browser (Google Chorme, Opera, Firefox etc…) și accesăm adresa [**mail.student.tuiasi.ro**](http://mail.student.tuiasi.ro), **[mail.staff.tuiasi.ro](http://mail.staff.tuiasi.ro)** sau **[mail.academic.tuiasi.ro](http://mail.academic.tuiasi.ro)**.
 
@@ -22,7 +22,7 @@ Conectare de pe PC
 
   Fig. 2 Căsuța poștală
 
-Conectare de pe mobil
+## Conectare de pe mobil
 
 **Pasul 1:** Intrați în aplicația **Gmail**. Aceasta se găsește de obicei în folderul Google (Fig. 1).
 
@@ -65,9 +65,9 @@ Conectare de pe mobil
 
   Fig. 8 Take me to gmail
 
-Trimiterea e-mailurilor în numele altei adrese de e-mail.
+## Trimiterea e-mailurilor în numele altei adrese de e-mail.
 
-Configurarea adresei de e-mail
+### Configurarea adresei de e-mail
 
 **Configurarea se realizează o singură dată pentru fiecare adresă de pe care vrem să trimitem e-mailuri**.
 
@@ -91,7 +91,7 @@ Ne asigurăm că avem bifată și căsuța „**Treat as an alias**” (Fig. 11)
 
   Fig. 11 Completare date
 
-Trimitere e-mail
+### Trimitere e-mail
 
 **Pasul 1**: ****[Accesăm căsuța poștală](https://dicd.tuiasi.ro/acces-la-casuta-postala/)**** si apăsăm pe butonul de compunere e-mail.
 
@@ -101,7 +101,7 @@ Trimitere e-mail
 
   Fig. 12 Selectare adresă e-mail
 
-Adăugarea adresei Gmail în Mozilla Thunderbird
+## Adăugarea adresei Gmail în Mozilla Thunderbird
 
 **Pasul 1**: Se deschide din dreapta sus Meniul Thunderbird și se selectează opțiunea ”**New Account” > ”Existing Email**”. (Fig. 1)
 

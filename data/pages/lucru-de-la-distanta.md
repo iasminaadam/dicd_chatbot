@@ -11,11 +11,11 @@ Mai jos veți găsi instrucțiunile pe care trebuie să le urmați înainte de a
 
 Protecția datelor și securitatea digitală sunt importante de luat în considerare, vă rugăm să faceți clic mai jos pentru a afla mai multe despre modul în care puteți rămâne în siguranță în timp ce lucrați de acasă.
 
-Descărcare și instalare aplicație eduVPN
+## Descărcare și instalare aplicație eduVPN
 
 Platforma eduVPN pune la dispoziție aplicația pentru cinci sisteme de operare: **Windows**, **macOS**, **Android**, **iOS** și **Linux**. Aceasta se poate descărca de la adresa <https://www.vpn.tuiasi.ro>.
 
-Windows
+### Windows
 
 **Pasul 1:** Accesăm adresa [www.vpn.tuiasi.ro](http://www.vpn.tuiasi.ro). După accesare vom fi redirecționați către pagina de management a indentității, unde va trebui să ne conectăm cu contul instituțional.
 
@@ -44,7 +44,7 @@ Windows
 
   Fig. 6. Instalare finalizată
 
-macOS
+### macOS
 
 **Pasul 1:** În bara de căutare din aplicația “**App Store**”, introducem numele “**eduVPN client**” (Fig. 7).
 
@@ -57,7 +57,7 @@ macOS
 
   Fig. 8. Instalare aplicație eduVPN
 
-Android
+### Android
 
 **Pasul 1:** În bara de căutare din aplicația “**Google Play Store**”, introducem numele “**eduvpn**” (Fig. 9).
 
@@ -70,7 +70,7 @@ Android
 
   Fig. 10: Instalare aplicație
 
-iOS
+### iOS
 
 **Pasul 1:** În bara de căutare din aplicația “**App Store**”, introducem numele “**eduvpn client**”.
 
@@ -80,9 +80,9 @@ iOS
 
   Fig. 11: Instalare aplicație eduVPN
 
-Linux
+### Linux
 
-Creare configurație profil și importare – Recomandat
+#### Creare configurație profil și importare – Recomandat
 
 **Pasul 1:** Accesăm adresa [www.vpn.tuiasi.ro](http://www.vpn.tuiasi.ro). După accesare vom fi redirecționați către pagina de management a indentității, unde va trebui să ne conectăm cu contul instituțional.
 **Pasul 2:** După conectare vom fi redirecționați inapoi pe pagina [www.vpn.tuiasi.ro](http://www.vpn.tuiasi.ro) , unde va trebui să accesăm varianta “**Configurare**” din meniul principal (Fig. 12).
@@ -118,7 +118,7 @@ Creare configurație profil și importare – Recomandat
 
   Fig. 18. Activare conexiune
 
-Debian și Ubuntu
+#### Debian și Ubuntu
 
 Aplicația eduVPN pentru Debian și Ubuntu este încă în dezvoltare, recomandăm varianta „**Creare configurație profil și importare**„
 Pentru instalarea aplicației eduVPN trebuie să rulăm următoarele comenzi:
@@ -130,7 +130,7 @@ $ echo "deb https://app.eduvpn.org/linux/deb/ stable main" | sudo tee -a /etc/ap
 $ sudo apt update && sudo apt install eduvpn-client
 ```
 
-Fedora și CentOS
+#### Fedora și CentOS
 
 Aplicația eduVPN pentru Debian și Ubuntu este încă în dezvoltare, recomandăm varianta „**Creare configurație profil și importare**„
 Pentru instalarea aplicației eduVPN trebuie să rulăm următoarele comenzi:
@@ -141,9 +141,9 @@ $ sudo dnf copr enable gijzelaerr/eduvpn-client
 $ sudo dnf install eduvpn-client
 ```
 
-Realizarea conexiunii prin VPN
+## Realizarea conexiunii prin VPN
 
-Windows
+### Windows
 
 **Pasul 1:** Deschidem aplicația eduVPN și selectăm opțiunea “**Connect to your institution**” (Fig. 19).
 **Pasul 2:** Alegem din lista apărută, intrarea “**Gheorghe Asachi Technical University of Iasi**” (Fig. 20).
@@ -171,7 +171,7 @@ Windows
 
   Fig. 23. Status conexiune
 
-macOS
+### macOS
 
 **Pasul 1:** Deschidem aplicația eduVPN și scriem “**Asachi**” în bara de căutare (Fig. 24).
 
@@ -185,7 +185,7 @@ macOS
 
   Fig. 24. Căutare instituție
 
-Android
+### Android
 
 **Pasul 1:** Deschidem aplicația eduVPN și scriem “**Asachi**” în bara de căutare.
 **Pasul 2:** Alegem din lista apărută, intrarea “**Gheorghe Asachi Technical University of Iasi**” (Fig. 25).
@@ -206,7 +206,7 @@ Android
 
   Fig. 27. Status conexiune
 
-iOS
+### iOS
 
 **Pasul 1:** Deschidem aplicația eduVPN și scriem “**Asachi**” în bara de căutare.
 **Pasul 2:** Alegem din lista apărută, intrarea “**Gheorghe Asachi Technical University of Iasi**” (Fig. 28).
@@ -221,7 +221,7 @@ iOS
 
   Fig. 28. Selectare instituție
 
-Linux
+### Linux
 
 Pentru stabilirea conexiunii în cazul în care a fost descărcată configurația manual, găsiti instrucțiuni la „**Descărcare și instalare aplicație eduVPN**” > „**Linux**” > „**Creare configurație profil și importare**„
 
@@ -243,7 +243,7 @@ Pentru stabilirea conexiunii în cazul în care a fost descărcată configurați
 
   Fig. 31. Status conexiune
 
-Deconectarea de la conexiunea VPN
+## Deconectarea de la conexiunea VPN
 
 **Pasul 1:** Redeschidem aplicația. (aplicația ramane permanent deschisa pe durata conexiunii VPN)
 **Pasul 2:** Apăsăm pe butonul “**Disconnect**” (Fig. 32).

@@ -14,23 +14,23 @@ Noile adrese de grup vor avea domeniul **@groups.tuiasi.ro**. Aceste adrese disp
 
 **Obs:** Pentru folosirea facilităților de tip colaborare ( collaborative inbox ), trebuie folosită interfața de la adresa **[groups.google.com](http://groups.google.com)**.
 
-Crearea unei adrese de grup
+## Crearea unei adrese de grup
 
 **Pasul 1:** Trebuie să completați **[formularul](https://docs.google.com/forms/d/e/1FAIpQLSe8h4ETNoKA1BL9gVHC7GshMfFTUoZjNkP4uFVJBdo9RpUaDA/viewform?fbzx=-1612968711608566396)**pentru adrese de grup.
 
 **Pasul 2:** După completare veți primi pe e-mail o fișă pe care va trebui să o semnați și sa o atașați unui tichet. Tichetul trebuie deschis la adresa **[support.tuiasi.ro](https://support.tuiasi.ro)**. Dacă prin această adresă se dorește migrarea de pe o adresă existentă (@tuiasi.ro) este necesar să menționați acest aspect în tichetul deschis.
 
-Accesarea adresei de grup
+### Accesarea adresei de grup
 
 Poate fi realizată prin două metode:
 
-Din contul instituțional al fiecărui membru
+### Din contul instituțional al fiecărui membru
 
 E-mailurile trimise și primite pe acest grup vor putea fi vizualizate din contul instituțional al fiecărui membru.
 
 Pentru conectare urmați tutorialul „**[Acces la căsuța poștală](https://dicd.tuiasi.ro/acces-la-casuta-postala/)**„.
 
-Din platforma specifică grupurilor
+### Din platforma specifică grupurilor
 
 **Pasul 1:** Accesăm adresa **[groups.google.com](http://groups.google.com)**. În cazul în care nu suntem conectați va trebui să introducem adresa contului instituțional și să apăsăm pe „**Next**” (Fig. 1), iar apoi se va deschide pagina de administrare a contului instituțional, unde va trebui să ne conectam cu datele contului instituțional.
 
@@ -51,13 +51,13 @@ Din platforma specifică grupurilor
 
   Fig. 4 Accesare conversații
 
-Trimiterea e-mailurilor în numele grupului
+### Trimiterea e-mailurilor în numele grupului
 
-Din Gmail
+### Din Gmail
 
 **Configurarea se realizează o singură dată pentru un grup, dar trebuie facută în parte pentru fiecare grup de pe care vrem să trimitem e-mailuri.**
 
-Configurarea adresei de e-mail
+### Configurarea adresei de e-mail
 
 Pentru a trimite e-mailuri în numele grupului direct din platforma Gmail, va trebui să configurăm adresa de e-mail urmând pașii următori.
 
@@ -108,7 +108,7 @@ Pentru a trimite e-mailuri în numele grupului direct din platforma Gmail, va tr
 
   Fig. 15 Selectare adresă grup
 
-Eliminarea adresei de grup atașată contului
+#### Eliminarea adresei de grup atașată contului
 
 *Î**n cazul în care nu mai faceți parte dintr-un grup și doriți ca adresa de grup să nu mai fie atașată contului dvs, este necesar să urmați pașii de mai jos.***
 
@@ -123,7 +123,7 @@ Eliminarea adresei de grup atașată contului
 
   Fig. 2
 
-Din Google groups
+### Din Google groups
 
 **Pasul 1:** Accesăm adresa **[groups.google.com](http://groups.google.com)**. În cazul în care nu suntem conectați va trebui să introducem adresa contului instituțional și să apăsăm pe „**Next**” (Fig. 1), iar apoi se va deschide pagina de administrare a contului instituțional, unde va trebui să ne conectam cu datele contului instituțional.
 
@@ -140,7 +140,7 @@ Din Google groups
 
   Fig. 17 Selectare adresă grup
 
-Filtrarea e-mailurilor asociate grupului
+### Filtrarea e-mailurilor asociate grupului
 
 **Pasul 1:** Conectați-vă cu contul instituțional propriu în Gmail conform tutorialului ”**[Acces la căsuța poștală](https://dicd.tuiasi.ro/acces-la-casuta-postala/)**”.
 
@@ -182,10 +182,10 @@ Filtrarea e-mailurilor asociate grupului
 
   Fig. 6
 
-Adăugarea unui nou membru în grup
+### Adăugarea unui nou membru în grup
 
 **Pentru a adăuga noi membri în grup este necesar să creați un [ticket](https://suport.tuiasi.ro/).**
 
-Ștergerea unui membru din grup
+### Ștergerea unui membru din grup
 
 **Pentru a șterge membri din grup este necesar să creați un [ticket](https://suport.tuiasi.ro/).**

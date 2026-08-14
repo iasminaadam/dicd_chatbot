@@ -9,7 +9,7 @@ Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție progr
 
 În cazul instalării MatLab în laboratoare este necesară deschiderea unui [tichet](https://suport.tuiasi.ro/).
 
-Atașare licență la contul MathWorks
+## Atașare licență la contul MathWorks
 
 **Pasul 1:** Accesăm pagina **[MathWorks](http://matlab.tuiasi.ro)** dedicată pentru Universitatea Tehnică „Gheorghe Asachi” din Iași (Fig. 1 – matlab.tuiasi.ro).
 
@@ -29,7 +29,7 @@ Atașare licență la contul MathWorks
 
   Fig. 3 Create one!
 
-MatLab Online
+## MatLab Online
 
 **Pasul 1:** Accesăm pagina **[MathWorks](https://matlab.mathworks.com/)** dedicată pentru utilizarea programului MatLab Online.
 
@@ -47,7 +47,7 @@ MatLab Online
 
   Fig. 6 Open MatLab Online
 
-Descărcare MatLab
+## Descărcare MatLab
 
 **Pasul 1:** Accesăm pagina **[MathWorks](https://www.mathworks.com/downloads/)**.
 
@@ -62,7 +62,7 @@ Descărcare MatLab
 
   Fig. 8 Descărcare MatLab
 
-Instalare
+## Instalare
 
 **Pasul 1:** Deschidem executabilul descărcat și așteptăm extragerea fișierelor (Fig. 9).
 

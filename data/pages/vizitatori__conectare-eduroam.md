@@ -7,9 +7,9 @@ url: "https://dicd.tuiasi.ro/ro/vizitatori/conectare-eduroam/"
 
 Pentru a simplifica procesul de configurare pentru conectare, putem descărca aplicația oficială **GetEduroam** de pe pagina oficial **[GetEduroam](https://www.geteduroam.app/)** sau de pe pagina de **[GitHub](https://github.com/geteduroam/windows-app/releases)**.
 
-Descărcare și conectare
+## Descărcare și conectare
 
-Windows
+### Windows
 
 **Pasul 1:** Descărcăm aplicația **GetEduroam** de pe pagina oficial **[GetEduroam](https://www.geteduroam.app/)** (Fig. 1).
 
@@ -35,7 +35,7 @@ Windows
 
   Fig. 6 Autentificare
 
-Android
+### Android
 
 **Pasul 1:** Deschidem aplicația „**Play Store**” și căutăm aplicația „**geteduroam**„. Apăsăm pe butonul „**Install**” pentru a începe instalarea (Fig. 7).
 
@@ -56,7 +56,7 @@ Android
 
   Fig. 10 Conectare realizata cu succes
 
-iOS
+### iOS
 
 ****Pasul 1:**** Deschidem aplicația „**App Store**” și căutăm aplicația „**geteduroam**„. Apăsăm pe butonul „**Install**” pentru a începe instalarea (Fig. 11).
 

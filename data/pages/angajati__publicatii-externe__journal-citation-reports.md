@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/journal-citation-rep
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma oferită de Clarivate **Journal Citation Reports** pe baza contului instituţional sau automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare prin adresă IP
+## Accesare prin adresă IP
 
 Accesăm [**Journal Citation Reports**](https://jcr.clarivate.com) şi, dacă autentificarea a fost realizată cu succes, vom fi întâmpinaţi de pagina principală a website-ului (Fig. 1).
 
@@ -17,7 +17,7 @@ Accesăm [**Journal Citation Reports**](https://jcr.clarivate.com) şi, dacă au
 
   Fig. 1
 
-Accesare prin cont instituţional
+## Accesare prin cont instituţional
 
 **Pasul 1:** Vom accesa pagina [**Journal Citation Reports**](https://access.clarivate.com/register?app=jcr) şi ne vom înregistra folosind email-ul asociat contului instituţional. (Fig. 2).
 

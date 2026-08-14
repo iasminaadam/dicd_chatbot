@@ -64,7 +64,7 @@ def url_to_filename(url: str) -> str:
 
     # Remove characters that are problematic in filenames.
     filename = re.sub(
-        r"[^a-zA-Z0-9ăâîșțĂÂÎȘȚ._-]+",
+        r"[^a-zA-Z0-9ăâîșțĂÂÎȘȚ.\_-]+",
         "-",
         filename
     )
@@ -193,7 +193,6 @@ def get_image_url(image, page_url):
     Supports normal src and common lazy-loading attributes.
     """
 
-    # Check several common WordPress/lazy-loading attributes.
     candidates = [
         image.get("src"),
         image.get("data-src"),
@@ -298,11 +297,6 @@ def is_probably_decorative_image(image):
         or ""
     ).lower()
 
-    alt = (
-        image.get("alt")
-        or ""
-    ).strip().lower()
-
     classes = " ".join(
         image.get("class", [])
     ).lower()
@@ -362,7 +356,7 @@ def is_probably_decorative_image(image):
     except (TypeError, ValueError):
         pass
 
-    # Empty alt text alone is NOT enough to discard an image.
+    # Empty alt text alone is NOT enough to discard the image.
     #
     # Screenshots often have no alt text.
     #
@@ -380,12 +374,8 @@ def prepare_images(content, page_url):
     """
     Prepare useful images for Markdown conversion.
 
-    Important:
-
-    Images are NOT extracted into a separate metadata list.
-
-    Instead, they remain in the exact position in which they
-    appeared on the original page.
+    Images remain in the exact position in which they appeared
+    on the original page.
 
     Example:
 
@@ -412,10 +402,6 @@ def prepare_images(content, page_url):
 
         if is_probably_decorative_image(image):
 
-            # Remove only the image.
-            #
-            # If it happens to be inside a link, the link's
-            # text remains.
             image.decompose()
 
             continue
@@ -448,6 +434,7 @@ def prepare_images(content, page_url):
             #
             # Remove the image but preserve the surrounding
             # link/text.
+
             image.decompose()
 
             continue
@@ -489,6 +476,258 @@ def prepare_images(content, page_url):
 
 
 # ============================================================
+# ACCORDION HELPERS
+# ============================================================
+
+ACCORDION_CLASS = "wp-block-ub-content-toggle"
+
+ACCORDION_TITLE_CLASS = (
+    "wp-block-ub-content-toggle-accordion-title"
+)
+
+ACCORDION_CONTENT_CLASS = (
+    "wp-block-ub-content-toggle-accordion-content-wrap"
+)
+
+ACCORDION_INDICATOR_CLASS = (
+    "wp-block-ub-content-toggle-accordion-state-indicator"
+)
+
+
+def has_class(element, class_name):
+    """
+    Safely check whether a BeautifulSoup element has a class.
+    """
+
+    if not element:
+        return False
+
+    return class_name in (
+        element.get("class") or []
+    )
+
+
+def get_accordion_depth(accordion):
+    """
+    Determine how deeply an accordion is nested.
+
+    Example:
+
+        Outer accordion
+            -> depth 0
+
+        Accordion inside outer accordion
+            -> depth 1
+
+        Accordion inside that accordion
+            -> depth 2
+    """
+
+    depth = 0
+
+    parent = accordion.parent
+
+    while parent:
+
+        if has_class(
+            parent,
+            ACCORDION_CLASS
+        ):
+            depth += 1
+
+        parent = parent.parent
+
+    return depth
+
+
+def get_accordion_title_element(accordion):
+    """
+    Find the actual visible title element of an accordion.
+
+    The WordPress block usually looks approximately like:
+
+        <div class="wp-block-ub-content-toggle">
+            <div class="wp-block-ub-content-toggle-accordion">
+                <div class="...title-wrap">
+
+                    <p class="...accordion-title">
+                        Conectare de pe PC
+                    </p>
+
+                    <span class="...state-indicator">
+                    </span>
+
+                </div>
+
+                <div class="...content-wrap">
+                    ...
+                </div>
+            </div>
+        </div>
+    """
+
+    title = accordion.find(
+        class_=lambda classes: (
+            classes
+            and ACCORDION_TITLE_CLASS in classes
+        )
+    )
+
+    return title
+
+
+def prepare_accordions(content):
+    """
+    Convert WordPress Ultimate Blocks accordions into proper
+    Markdown heading hierarchy.
+
+    Top-level accordions become:
+
+        ## Section
+
+    Nested accordions become:
+
+        ### Subsection
+
+    Further nested accordions become:
+
+        #### Subsection
+
+    etc.
+
+    This preserves the semantic structure of the original
+    webpage instead of treating accordion titles as ordinary
+    paragraphs.
+
+    Example:
+
+        Trimiterea e-mailurilor...
+            Configurarea adresei de e-mail
+            Trimitere e-mail
+
+    becomes:
+
+        ## Trimiterea e-mailurilor...
+
+        ### Configurarea adresei de e-mail
+
+        ### Trimitere e-mail
+    """
+
+    # --------------------------------------------------------
+    # Find every accordion.
+    # --------------------------------------------------------
+
+    accordions = content.find_all(
+        class_=lambda classes: (
+            classes
+            and ACCORDION_CLASS in classes
+        )
+    )
+
+    if not accordions:
+        return
+
+    print(
+        f"  Accordions found: {len(accordions)}"
+    )
+
+    # --------------------------------------------------------
+    # Process each accordion.
+    # --------------------------------------------------------
+
+    for accordion in accordions:
+
+        depth = get_accordion_depth(
+            accordion
+        )
+
+        # Top-level accordion = h2
+        #
+        # Nested accordion = h3
+        #
+        # etc.
+
+        heading_level = min(
+            depth + 2,
+            6
+        )
+
+        title = get_accordion_title_element(
+            accordion
+        )
+
+        if not title:
+            continue
+
+        # ----------------------------------------------------
+        # Remove the arrow/indicator.
+        #
+        # This is the span visible in the browser as the
+        # dropdown arrow.
+        # ----------------------------------------------------
+
+        for indicator in accordion.find_all(
+            class_=lambda classes: (
+                classes
+                and ACCORDION_INDICATOR_CLASS in classes
+            )
+        ):
+
+            indicator.decompose()
+
+        # ----------------------------------------------------
+        # Convert title to semantic heading.
+        # ----------------------------------------------------
+
+        title.name = f"h{heading_level}"
+
+        # ----------------------------------------------------
+        # Remove classes/attributes that have no meaning in
+        # Markdown.
+        # ----------------------------------------------------
+
+        title.attrs = {}
+
+        # ----------------------------------------------------
+        # Clean the title text.
+        #
+        # The title normally contains only the visible section
+        # name, so this is mostly defensive.
+        # ----------------------------------------------------
+
+        title_text = title.get_text(
+            " ",
+            strip=True
+        )
+
+        title.clear()
+
+        title.append(
+            title_text
+        )
+
+
+def remove_accordion_ui(content):
+    """
+    Remove UI-only accordion elements that have no semantic
+    meaning after the title has been converted to a heading.
+
+    We keep the actual accordion content.
+    """
+
+    # Remove indicator spans if any remain.
+    for element in content.find_all(
+        class_=lambda classes: (
+            classes
+            and ACCORDION_INDICATOR_CLASS in classes
+        )
+    ):
+
+        element.decompose()
+
+
+# ============================================================
 # EXTRACT MAIN CONTENT
 # ============================================================
 
@@ -509,7 +748,13 @@ def extract_content(html, url):
 
         #main .entry-content
 
-    Useful images remain inline in their original position.
+    Special handling:
+
+        - Images remain inline.
+        - Image URLs remain in Markdown.
+        - WordPress accordion titles become headings.
+        - Nested accordions become nested Markdown headings.
+        - Accordion arrows are removed.
     """
 
     soup = BeautifulSoup(
@@ -565,6 +810,35 @@ def extract_content(html, url):
             element.decompose()
 
     # --------------------------------------------------------
+    # IMPORTANT:
+    #
+    # Process accordion structure BEFORE converting HTML to
+    # Markdown.
+    #
+    # This changes:
+    #
+    #   <p class="...accordion-title">
+    #       Conectare de pe PC
+    #   </p>
+    #
+    # into:
+    #
+    #   <h2>
+    #       Conectare de pe PC
+    #   </h2>
+    #
+    # and nested accordions into h3/h4/etc.
+    # --------------------------------------------------------
+
+    prepare_accordions(
+        content
+    )
+
+    remove_accordion_ui(
+        content
+    )
+
+    # --------------------------------------------------------
     # Prepare images BEFORE converting HTML to Markdown.
     #
     # This preserves their location in the document.
@@ -579,8 +853,9 @@ def extract_content(html, url):
     # Remove empty div/span elements.
     #
     # IMPORTANT:
-    # Do this AFTER image preparation so that a container
-    # containing a useful image isn't accidentally removed.
+    #
+    # Do not remove heading containers or containers that
+    # contain useful content/images.
     # --------------------------------------------------------
 
     for element in content.find_all():
@@ -595,8 +870,34 @@ def extract_content(html, url):
                 strip=True
             )
 
-            if not text and not element.find("img"):
+            # Keep elements containing images.
+            if element.find("img"):
+                continue
 
+            # Keep elements containing headings.
+            if element.find([
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+            ]):
+                continue
+
+            # Keep elements containing meaningful children.
+            meaningful_children = element.find([
+                "p",
+                "ul",
+                "ol",
+                "table",
+                "blockquote",
+                "pre",
+                "figure",
+                "a",
+            ])
+
+            if not text and not meaningful_children:
                 element.decompose()
 
     # --------------------------------------------------------
@@ -612,7 +913,7 @@ def extract_content(html, url):
 
         strip=[
             "script",
-            "style"
+            "style",
         ]
     )
 
@@ -674,7 +975,7 @@ def clean_markdown(text):
     #
     # Examples:
     #
-    #   []()
+    #   []
     #   [ ](https://...)
     #
     # But DON'T touch image syntax:
@@ -683,9 +984,20 @@ def clean_markdown(text):
     # --------------------------------------------------------
 
     text = re.sub(
-        r"(?<!\!)\[\s*\]\([^)]*\)",
+        r"(?<!!)\[\s*\]\([^)]*\)",
         "",
         text
+    )
+
+    # --------------------------------------------------------
+    # Remove whitespace immediately inside headings.
+    # --------------------------------------------------------
+
+    text = re.sub(
+        r"^(#{1,6})[ \t]+",
+        r"\1 ",
+        text,
+        flags=re.MULTILINE
     )
 
     return text.strip()

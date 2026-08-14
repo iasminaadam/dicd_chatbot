@@ -7,7 +7,7 @@ url: "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/springerlink-journal
 
 Universitatea Tehnică „Gheorghe Asachi” din Iași pune la dispoziție acces la platforma **Springerlink Journals** pe baza contului instituţional sau automat în cazul în care sunteţi conectaţi la reţeaua campusului studenţesc sau didactic.
 
-Accesare via adresă IP
+## Accesare via adresă IP
 
 Accesăm [**Springerlink Journals**](http://link.springer.com/) şi, dacă autentificarea a fost realizată cu succes, putem observa în subsolul paginii mesajul din Fig. 1.
 
@@ -17,7 +17,7 @@ Accesăm [**Springerlink Journals**](http://link.springer.com/) şi, dacă auten
 
   Fig. 1
 
-Accesare via cont instituţional
+## Accesare via cont instituţional
 
 **Pasul 1:** Vom accesa pagina [**Springerlink Journals**](http://link.springer.com/) şi vom apăsa pe butonul „**Sign up / Log in**” (Fig. 2).
 
