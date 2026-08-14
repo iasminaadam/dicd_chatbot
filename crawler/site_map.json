@@ -1,0 +1,359 @@
+[
+  {
+    "url": "https://dicd.tuiasi.ro/ro/studenti/",
+    "title": "Studenți",
+    "children": [
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/cont-institutional/",
+        "title": "Cont instituțional",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/acces-la-casuta-postala/",
+        "title": "Acces la căsuța poștală",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/platforma-educationala/",
+        "title": "Platforma educațională",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/conectare-retea-campus-802-1x/",
+        "title": "Conectare rețea campus 802.1X",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/conectare-wifi/",
+        "title": "Conectare la retea prin WI-FI",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/microsoft-teams/",
+        "title": "Microsoft Teams",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/microsoft-office/",
+        "title": "Microsoft Office",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/matlab/",
+        "title": "MatLab",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/windows/",
+        "title": "Windows",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/github/",
+        "title": "GitHub",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/ansys-studenti/",
+        "title": "Ansys",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/autocad-studenti/",
+        "title": "AutoCAD",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/altium-education/",
+        "title": "Altium Education",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/",
+        "title": "Publicaţii externe",
+        "children": [
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/elsevier-science-direct/",
+            "title": "Elsevier Science Direct",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/springerlink-journals/",
+            "title": "Springerlink Journals",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/ieee-xplore/",
+            "title": "IEEE Xplore",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/elsevier-scopus/",
+            "title": "Elsevier Scopus",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/ebsco-host/",
+            "title": "EBSCO Host",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/cabi-ebooks/",
+            "title": "CABI Ebooks",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/degruyter-ebooks/",
+            "title": "DeGruyter Ebooks",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/elsevier-ebooks/",
+            "title": "Elsevier Ebooks",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/emerald-insight/",
+            "title": "Emerald Insight",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/orcid/",
+            "title": "ORCID",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/journal-citation-reports/",
+            "title": "Journal Citation Reports",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/web-of-science/",
+            "title": "Web of Science",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/studenti/publicatii-externe/wiley-online-library/",
+            "title": "Wiley Online Library",
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/studenti/politici-si-proceduri/",
+        "title": "Politici și proceduri",
+        "children": []
+      }
+    ]
+  },
+  {
+    "url": "https://dicd.tuiasi.ro/ro/angajati/",
+    "title": "Angajați",
+    "children": [
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/cont-institutional-angajati/",
+        "title": "Cont instituțional",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/e-mail-angajati/",
+        "title": "E-mail angajați",
+        "children": [
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/acces-la-casuta-postala/",
+            "title": "Acces la căsuța poștală",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/e-mail-angajati/legacy-tuiasi/",
+            "title": "Legacy (@tuiasi.ro)",
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/adrese-de-grup/",
+        "title": "Adrese de grup",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/conectare-la-retea-prin-cablu/",
+        "title": "Conectare la rețea prin cablu",
+        "children": [
+          {
+            "url": "https://dicd.tuiasi.ro/ro/determinarea-adresei-mac/",
+            "title": "Determinarea adresei MAC",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/verificare-configuratie-pc/",
+            "title": "Verificare configurație PC",
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/conectare-wifi/",
+        "title": "Conectare la retea prin WI-FI",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/lucru-de-la-distanta/",
+        "title": "Lucru de la distanță",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/inregistrare-domenii/",
+        "title": "Înregistrare domenii",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/administrare-site/",
+        "title": "Administrare Site",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/serviciu-baze-de-date/",
+        "title": "Serviciu baze de date",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/sintact-v4/",
+        "title": "SintAct V4",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/windows/",
+        "title": "Windows",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/matlab/",
+        "title": "MatLab",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/autocad-angajati/",
+        "title": "AutoCAD",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/ansys-angajati/",
+        "title": "Ansys",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/mathcad/",
+        "title": "Mathcad",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/politici-si-proceduri/",
+        "title": "Politici și proceduri",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/",
+        "title": "Publicaţii externe",
+        "children": [
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/elsevier-science-direct/",
+            "title": "Elsevier Science Direct",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/springerlink-journals/",
+            "title": "Springerlink Journals",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/ieee-xplore/",
+            "title": "IEEE Xplore",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/elsevier-scopus/",
+            "title": "Elsevier Scopus",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/ebsco-host/",
+            "title": "EBSCO Host",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/cabi-ebooks/",
+            "title": "CABI Ebooks",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/degruyter-ebooks/",
+            "title": "DeGruyter Ebooks",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/elsevier-ebooks/",
+            "title": "Elsevier Ebooks",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/emerald-insight/",
+            "title": "Emerald Insight",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/orcid/",
+            "title": "ORCID",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/journal-citation-reports/",
+            "title": "Journal Citation Reports",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/web-of-science/",
+            "title": "Web of Science",
+            "children": []
+          },
+          {
+            "url": "https://dicd.tuiasi.ro/ro/angajati/publicatii-externe/wiley-online-library/",
+            "title": "Wiley Online Library",
+            "children": []
+          }
+        ]
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/angajati/manuale-de-utilizare-aplicatii/",
+        "title": "Manuale de utilizare aplicații",
+        "children": []
+      }
+    ]
+  },
+  {
+    "url": "https://dicd.tuiasi.ro/ro/vizitatori/",
+    "title": "Vizitatori",
+    "children": [
+      {
+        "url": "https://dicd.tuiasi.ro/ro/vizitatori/cont-guest/",
+        "title": "Cont @guest.tuiasi.ro",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/vizitatori/conectare-eduroam/",
+        "title": "Conectare eduroam",
+        "children": []
+      },
+      {
+        "url": "https://dicd.tuiasi.ro/ro/acces-la-casuta-postala/",
+        "title": "Acces la căsuța poștală",
+        "children": []
+      }
+    ]
+  },
+  {
+    "url": "https://dicd.tuiasi.ro/ro/selecteaza-campus/",
+    "title": "Selectează campusul",
+    "children": []
+  }
+]
