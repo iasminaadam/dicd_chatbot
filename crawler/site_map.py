@@ -21,7 +21,7 @@ START_URLS = [
 ALLOWED_HOST = "dicd.tuiasi.ro"
 ALLOWED_PREFIX = "https://dicd.tuiasi.ro/ro/"
 
-OUTPUT_FILE = "site_map.json"
+OUTPUT_FILE = "../data/site_map.json"
 
 REQUEST_DELAY = 0.5
 
