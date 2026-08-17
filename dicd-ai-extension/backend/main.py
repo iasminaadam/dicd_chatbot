@@ -77,7 +77,7 @@ def chat(req: ChatRequest):
 
     history_text = "\n".join(
         f'{m.get("role", "unknown")}: {m.get("text", "")}'
-        for m in req.history[-10:]
+        for m in req.history[-20:]
     )
 
     user_input = f"""CURRENT PAGE
